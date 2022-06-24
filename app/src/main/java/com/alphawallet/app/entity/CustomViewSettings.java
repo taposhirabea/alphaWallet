@@ -10,6 +10,7 @@ import com.alphawallet.app.repository.entity.RealmToken;
 import com.alphawallet.app.service.TokensService;
 import com.alphawallet.app.ui.widget.entity.NetworkItem;
 import com.alphawallet.ethereum.EthereumNetworkBase;
+import static com.alphawallet.ethereum.EthereumNetworkBase.MATIC_ID;
 
 import java.util.Arrays;
 import java.util.List;
@@ -19,8 +20,8 @@ import static com.alphawallet.ethereum.EthereumNetworkBase.MAINNET_ID;
 
 public class CustomViewSettings
 {
-    public static final long primaryChain = MAINNET_ID;
-    private static final String primaryChainName = C.ETHEREUM_NETWORK_NAME;
+    public static final long primaryChain = MATIC_ID;
+    private static final String primaryChainName = C.MATIC_NETWORK;
 
     //You can use the settings in this file to customise the wallet appearance
 
