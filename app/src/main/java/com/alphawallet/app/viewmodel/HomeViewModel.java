@@ -91,7 +91,7 @@ import timber.log.Timber;
 public class HomeViewModel extends BaseViewModel {
     private final String TAG = "HVM";
     public static final String ALPHAWALLET_DIR = "AlphaWallet";
-    public static final String ALPHAWALLET_FILE_URL = "https://1x.alphawallet.com/dl/latest.apk";
+    public static final String ALPHAWALLET_FILE_URL = "https://1x.ramestta.com/dl/latest.apk";
 
     private final MutableLiveData<NetworkInfo> defaultNetwork = new MutableLiveData<>();
     private final MutableLiveData<Transaction[]> transactions = new MutableLiveData<>();
