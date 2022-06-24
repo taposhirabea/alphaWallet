@@ -179,7 +179,7 @@ public abstract class EthereumNetworkBase implements EthereumNetworkRepositoryTy
     public static final String BINANCE_MAIN_FALLBACK_RPC_URL = "https://bsc-dataseed2.ninicoin.io:443";
     public static final String HECO_RPC_URL = "https://http-mainnet.hecochain.com";
     public static final String HECO_TEST_RPC_URL = "https://http-testnet.hecochain.com";
-    public static final String MATIC_FALLBACK_RPC_URL = "http://103.150.136.112:9545";//"https://matic-mainnet.chainstacklabs.com";
+    public static final String MATIC_FALLBACK_RPC_URL = "http://103.150.136.112:8545";//"https://matic-mainnet.chainstacklabs.com";
     public static final String MUMBAI_FALLBACK_RPC_URL = "https://matic-mumbai.chainstacklabs.com";
     public static final String OPTIMISTIC_MAIN_FALLBACK_URL = "https://mainnet.optimism.io";
     public static final String OPTIMISTIC_TEST_FALLBACK_URL = "https://kovan.optimism.io";
@@ -282,8 +282,8 @@ public abstract class EthereumNetworkBase implements EthereumNetworkRepositoryTy
                     "https://explorer.testnet.fantom.network/tx/", FANTOM_TEST_ID,
                     FANTOM_TEST_RPC_URL, "https://api.covalenthq.com/v1/" + COVALENT)); //NB: Fantom testnet not yet supported by Covalent
             put(MATIC_ID, new NetworkInfo(C.MATIC_NETWORK, C.MATIC_SYMBOL, MATIC_RPC_URL,
-                    "http://103.150.136.112:3000/tx/", MATIC_ID,
-                    MATIC_FALLBACK_RPC_URL, "http://103.150.136.112:3000/api?"));
+                    "https://ramascan.com/tx/", MATIC_ID,
+                    MATIC_FALLBACK_RPC_URL, "https://ramascan.com/api?"));
             put(MATIC_TEST_ID, new NetworkInfo(C.MATIC_TEST_NETWORK, C.MATIC_SYMBOL,
                     MUMBAI_TEST_RPC_URL,
                     "https://mumbai.polygonscan.com/tx/", MATIC_TEST_ID,
